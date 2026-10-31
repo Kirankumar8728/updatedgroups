@@ -1,0 +1,7 @@
+{
+  "googleAnalyticsId": "G-QV8F13VGD3",
+  "googleVerificationCode": "",
+  "bingVerificationCode": "",
+  "customHeadCode": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-QV8F13VGD3\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-QV8F13VGD3');\n</script>",
+  "customBodyCode": ""
+}

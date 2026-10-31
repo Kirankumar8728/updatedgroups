@@ -1,0 +1,71 @@
+[
+  {
+    "profile": {
+      "id": "usr_1790447008787_6926b6ad",
+      "email": "arjun9502@gmail.com",
+      "displayName": "Arjun",
+      "role": "user",
+      "credits": 50,
+      "creditsBalance": 50,
+      "totalCreditsEarned": 50,
+      "totalCreditsSpent": 0,
+      "referralCode": "ref_6AO0EA",
+      "reputationScore": 10,
+      "isBanned": false,
+      "claimedCommunityIds": [],
+      "savedGroupIds": [],
+      "linkedAccounts": [],
+      "createdAt": "2026-09-26T18:23:28.787Z",
+      "updatedAt": "2026-09-26T18:23:28.787Z"
+    },
+    "passwordHash": "pbkdf2$100000$62c82f5e889b4af837d7ad29cacc3e31$bded081206fd1fbbed0b7e222c2c02c561281e61a160756240d81f9416fd41882f81977e0d61d4c9ed01ed9e7c0f1a6ca06f0afe1c8217998b5c291835c28351"
+  },
+  {
+    "profile": {
+      "id": "usr_admin_1790520435899",
+      "email": "kirankumar8728@gmail.com",
+      "displayName": "Kiran Kumar (Admin)",
+      "role": "admin",
+      "credits": 1000,
+      "creditsBalance": 1000,
+      "totalCreditsEarned": 1000,
+      "totalCreditsSpent": 0,
+      "referralCode": "REF_ADMIN",
+      "reputationScore": 100,
+      "isBanned": false,
+      "claimedCommunityIds": [],
+      "savedGroupIds": [],
+      "linkedAccounts": [],
+      "createdAt": "2026-09-27T14:47:15.973Z",
+      "updatedAt": "2026-09-27T14:47:15.973Z"
+    },
+    "passwordHash": "pbkdf2$100000$be4fd184bee9d767d77e94228083f3e4$6a79f4b2d11956cbe4dc7b2a4fa406594341ffe62ecdcf63aefae05a359a071274d8327df9c5fcd9d3c1943d781c5baff432d090e50e229ddb2df50c87eaf488"
+  },
+  {
+    "profile": {
+      "id": "usr_1790520585835_996a4cc7",
+      "email": "googletest@gmail.com",
+      "displayName": "Google Test",
+      "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=googletest%40gmail.com",
+      "role": "user",
+      "credits": 50,
+      "creditsBalance": 50,
+      "totalCreditsEarned": 50,
+      "totalCreditsSpent": 0,
+      "referralCode": "ref_H0XX08",
+      "reputationScore": 10,
+      "isBanned": false,
+      "claimedCommunityIds": [],
+      "savedGroupIds": [],
+      "linkedAccounts": [
+        {
+          "provider": "google",
+          "providerId": "g_12345",
+          "linkedAt": "2026-09-27T14:49:45.835Z"
+        }
+      ],
+      "createdAt": "2026-09-27T14:49:45.835Z",
+      "updatedAt": "2026-09-27T14:49:45.835Z"
+    }
+  }
+]

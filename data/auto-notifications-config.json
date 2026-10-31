@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "template": "trending",
+  "targetPercent": 60,
+  "batchSize": 30,
+  "delayMs": 200,
+  "dailyHourUtc": 10
+}

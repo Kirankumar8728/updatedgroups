@@ -1,0 +1,8 @@
+{
+  "name": "New Remix  grup8728  3 Original Group links",
+  "description": "Discover, share, and join WhatsApp, Telegram, Discord, Facebook, Signal, and Snapchat groups with automated metadata scraping, custom tags, real-time popularity rankings, and advanced discovery filters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

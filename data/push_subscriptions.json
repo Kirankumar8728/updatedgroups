@@ -1,0 +1,29 @@
+[
+  {
+    "id": "a943552f688b8b838b187e42a6a75838",
+    "user_id": null,
+    "endpoint": "https://fcm.googleapis.com/fcm/send/test-sub-123",
+    "p256dh": "BM123",
+    "auth": "auth123",
+    "platform": "web",
+    "created_at": "2026-09-30T01:29:56.888Z"
+  },
+  {
+    "id": "27c2bdf707005a8cea0b9f7a5a966d85",
+    "user_id": null,
+    "endpoint": "https://fcm.googleapis.com/fcm/send/test_subscriber_123",
+    "p256dh": "BNcRdreALRF8M+Camel...",
+    "auth": "tBHItDaCW",
+    "platform": "web",
+    "created_at": "2026-09-30T13:44:46.531Z"
+  },
+  {
+    "id": "5675310b6c5a3d59fb3917939fba188c",
+    "user_id": null,
+    "endpoint": "https://fcm.googleapis.com/fcm/send/backup_migration_1",
+    "p256dh": "key1",
+    "auth": "auth1",
+    "platform": "web",
+    "created_at": "2026-09-30T13:44:56.616Z"
+  }
+]

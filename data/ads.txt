@@ -1,0 +1,4 @@
+# ads.txt - Group Links Directory
+# Replace with your actual publisher IDs provided by Google AdSense or your Ad Network
+# Format: <Field #1>, <Field #2>, <Field #3>, <Field #4>
+google.com, pub-5329614490007911, DIRECT, f08c47fec0942fa0

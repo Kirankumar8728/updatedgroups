@@ -1,0 +1,58 @@
+{
+  "name": "group-links",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3000 -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0",
+    "lint": "tsc --noEmit",
+    "sitemap:generate": "node scripts/generate-sitemap.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "r2:migrate": "node scripts/download-and-upload-r2.mjs",
+    "r2:migrate:dry": "node scripts/download-and-upload-r2.mjs --dry-run"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1149.0",
+    "@google/genai": "^2.4.0",
+    "@grpc/grpc-js": "1.12.0",
+    "@tailwindcss/postcss": "^4.1.14",
+    "adm-zip": "^0.6.1",
+    "canvas-confetti": "^1.9.4",
+    "dotenv": "^17.2.3",
+    "firebase": "^12.18.0",
+    "ioredis": "^6.0.0",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "mysql2": "^3.24.6",
+    "next": "^15.5.28",
+    "node-html-parser": "^9.0.1",
+    "nodemailer": "10.0.10",
+    "octokit": "^5.0.5",
+    "postcss": "8.5.18",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "resend": "^6.26.0",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.1.14",
+    "web-push": "^3.6.7",
+    "web-vitals": "^6.2.2"
+  },
+  "overrides": {
+    "entities": "4.5.0"
+  },
+  "resolutions": {
+    "entities": "4.5.0"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/ioredis": "^5.0.0",
+    "@types/node": "^22.14.0",
+    "@types/nodemailer": "^8.0.1",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.2"
+  }
+}

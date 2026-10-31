@@ -1,0 +1,14 @@
+# ----------------------------------------------------------------------
+# Hostinger LiteSpeed Web Server Configuration for grouplinks.app
+# Prevents LiteSpeed "HTTP ERROR 429" Per-Client Throttling on Next.js
+# ----------------------------------------------------------------------
+<IfModule Litespeed>
+  RewriteEngine On
+  # Disable LiteSpeed Per-Client Connection & Request Throttling
+  RewriteRule .* - [E=nothrottle:1]
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Ensure LiteSpeed & Reverse Proxies pass real IP and do not buffer SSE/Streams
+  Header set X-Accel-Buffering "no"
+</IfModule>

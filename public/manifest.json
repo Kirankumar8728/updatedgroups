@@ -1,0 +1,29 @@
+{
+  "name": "Group Links Directory",
+  "short_name": "GroupLinks",
+  "description": "Discover active WhatsApp groups, Telegram channels, Discord servers and online communities.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/assets/aistudio/app__1__c063602f.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/aistudio/app__1__c063602f.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/aistudio/app__1__c063602f.webp",
+      "sizes": "180x180",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
